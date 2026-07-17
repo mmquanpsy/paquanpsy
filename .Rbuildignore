@@ -11,5 +11,7 @@
 ^start_app\.R$
 ^deploy_app\.R$
 ^inst/app/rsconnect$
-^lavaanMediation.*\.tar\.gz$
-^lavaanMediation\.Rcheck$
+^\.tmp_github_en$
+^GitHub注册教程.*\.docx$
+^paquanpsy.*\.tar\.gz$
+^paquanpsy\.Rcheck$

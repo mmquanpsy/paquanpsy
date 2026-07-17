@@ -4,15 +4,15 @@
 
 ```r
 install.packages("remotes")
-remotes::install_github("hecongqing/lavaanMediation")
-lavaanMediation::run_app()
+remotes::install_github("mmquanpsy/paquanpsy")
+paquanpsy::run_app()
 ```
 
 ## 2. Run from source
 
 ```bash
-git clone https://github.com/hecongqing/lavaanMediation.git
-cd lavaanMediation
+git clone https://github.com/mmquanpsy/paquanpsy.git
+cd paquanpsy
 Rscript start_app.R
 ```
 

@@ -5,7 +5,7 @@ labels: [bug]
 body:
   - type: markdown
     attributes:
-      value: Thank you for helping improve lavaanMediation. Do not upload confidential research data.
+      value: Thank you for helping improve paquanpsy. Do not upload confidential research data.
   - type: textarea
     id: description
     attributes:

@@ -26,7 +26,7 @@ if (length(missing_packages) > 0) {
   )
 }
 
-message("Starting lavaanMediation from ", app_dir)
+message("Starting paquanpsy from ", app_dir)
 runtime_args <- commandArgs(trailingOnly = TRUE)
 launch_browser <- !"--no-browser" %in% runtime_args
 port_arg <- grep("^--port=", runtime_args, value = TRUE)

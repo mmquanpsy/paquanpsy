@@ -1,12 +1,12 @@
-# lavaanMediation
+# paquanpsy
 
 English | [简体中文](README.zh-CN.md)
 
-[![R-CMD-check](https://github.com/hecongqing/lavaanMediation/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hecongqing/lavaanMediation/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/mmquanpsy/paquanpsy/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mmquanpsy/paquanpsy/actions/workflows/R-CMD-check.yaml)
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 [![R >= 4.1](https://img.shields.io/badge/R-%3E%3D%204.1-276DC3.svg)](https://www.r-project.org/)
 
-`lavaanMediation` is an interactive parallel mediation analysis tool built with
+`paquanpsy` is an interactive parallel mediation analysis tool built with
 [Shiny](https://shiny.posit.co/) and [`lavaan`](https://lavaan.ugent.be/). It
 helps researchers configure, inspect, and export mediation-model results while
 retaining the complete `lavaan` syntax for review and reproducibility.
@@ -31,7 +31,7 @@ retaining the complete `lavaan` syntax for review and reproducibility.
 
 ```r
 install.packages("remotes")
-remotes::install_github("hecongqing/lavaanMediation")
+remotes::install_github("mmquanpsy/paquanpsy")
 ```
 
 ## Running the app
@@ -39,14 +39,14 @@ remotes::install_github("hecongqing/lavaanMediation")
 After installation, run:
 
 ```r
-lavaanMediation::run_app()
+paquanpsy::run_app()
 ```
 
 To run from source:
 
 ```bash
-git clone https://github.com/hecongqing/lavaanMediation.git
-cd lavaanMediation
+git clone https://github.com/mmquanpsy/paquanpsy.git
+cd paquanpsy
 Rscript start_app.R
 ```
 
@@ -168,7 +168,7 @@ labels for each mediator and calculates the total indirect effect.
 ## Project structure
 
 ```text
-lavaanMediation/
+paquanpsy/
 ├── R/                         # Public package interface (run_app)
 ├── inst/
 │   ├── app/

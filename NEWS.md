@@ -1,4 +1,4 @@
-# lavaanMediation 0.2.0
+# paquanpsy 0.2.0
 
 - Reorganized the Shiny application into focused model, result, plotting, asset, UI, and server files.
 - Added CSV downloads for model-fit statistics and parameter estimates, including R² rows.
@@ -13,6 +13,6 @@
 - Reused a single main-effect fit across tables, downloads, and diagrams.
 - Removed unused function arguments, duplicate example data, and unreachable PDF fallback assets.
 
-# lavaanMediation 0.1.0
+# paquanpsy 0.1.0
 
 - Initial R package and Shiny application for mediation analysis.

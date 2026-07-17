@@ -1,4 +1,4 @@
 library(testthat)
-library(lavaanMediation)
+library(paquanpsy)
 
-test_check("lavaanMediation")
+test_check("paquanpsy")

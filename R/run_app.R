@@ -10,10 +10,10 @@
 #'   blocks until the application is stopped.
 #' @export
 run_app <- function(launch.browser = interactive(), ...) {
-  app_dir <- system.file("app", package = "lavaanMediation")
+  app_dir <- system.file("app", package = "paquanpsy")
   if (identical(app_dir, "")) {
     stop(
-      "The bundled application could not be found. Reinstall lavaanMediation and try again.",
+      "The bundled application could not be found. Reinstall paquanpsy and try again.",
       call. = FALSE
     )
   }

@@ -1,4 +1,4 @@
-#' lavaanMediation: Interactive Parallel Mediation Analysis
+#' paquanpsy: Interactive Parallel Mediation Analysis
 #'
 #' The package bundles a Shiny application for configuring, fitting, and
 #' exporting parallel mediation models estimated with `lavaan`.

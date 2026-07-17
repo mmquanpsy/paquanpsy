@@ -1,12 +1,12 @@
-# lavaanMediation
+# paquanpsy
 
 [English](README.md) | 简体中文
 
-[![R-CMD-check](https://github.com/hecongqing/lavaanMediation/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hecongqing/lavaanMediation/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/mmquanpsy/paquanpsy/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mmquanpsy/paquanpsy/actions/workflows/R-CMD-check.yaml)
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 [![R >= 4.1](https://img.shields.io/badge/R-%3E%3D%204.1-276DC3.svg)](https://www.r-project.org/)
 
-`lavaanMediation` 是一个基于 [Shiny](https://shiny.posit.co/) 和
+`paquanpsy` 是一个基于 [Shiny](https://shiny.posit.co/) 和
 [`lavaan`](https://lavaan.ugent.be/) 的交互式并行中介分析工具。它面向需要快速配置、检查并导出中介模型结果的研究者，同时保留完整的 `lavaan` 模型语法供复核。
 
 > 当前版本为 `0.2.0`。应用用于辅助模型设定和结果整理，不能替代研究设计、模型识别、因果假设与统计诊断。
@@ -25,7 +25,7 @@
 
 ```r
 install.packages("remotes")
-remotes::install_github("hecongqing/lavaanMediation")
+remotes::install_github("mmquanpsy/paquanpsy")
 ```
 
 ## 运行
@@ -33,14 +33,14 @@ remotes::install_github("hecongqing/lavaanMediation")
 安装后在 R 中运行：
 
 ```r
-lavaanMediation::run_app()
+paquanpsy::run_app()
 ```
 
 从源码运行：
 
 ```bash
-git clone https://github.com/hecongqing/lavaanMediation.git
-cd lavaanMediation
+git clone https://github.com/mmquanpsy/paquanpsy.git
+cd paquanpsy
 Rscript start_app.R
 ```
 
@@ -145,7 +145,7 @@ total := cprime + (a1*b1)
 ## 项目结构
 
 ```text
-lavaanMediation/
+paquanpsy/
 ├── R/                         # 对外包接口（run_app）
 ├── inst/
 │   ├── app/
