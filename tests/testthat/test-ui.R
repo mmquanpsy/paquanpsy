@@ -1,6 +1,11 @@
 test_that("application UI exposes the current result tabs", {
   html <- htmltools::renderTags(app_test_env$app_ui())$html
 
+  expect_match(
+    html,
+    "paquanpsy: Parallel Mediation Analysis with Effect Conservation",
+    fixed = TRUE
+  )
   expect_match(html, "Model Fit", fixed = TRUE)
   expect_match(html, "Parameter Estimates", fixed = TRUE)
   expect_match(html, "Download", fixed = TRUE)

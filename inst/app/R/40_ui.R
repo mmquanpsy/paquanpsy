@@ -2,7 +2,7 @@
 
 app_ui <- function() {
   fluidPage(
-    titlePanel("Parallel Mediation Analysis with Effect Conservation"),
+    titlePanel("paquanpsy: Parallel Mediation Analysis with Effect Conservation"),
 
     sidebarLayout(
       sidebarPanel(
